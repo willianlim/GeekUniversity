@@ -8,4 +8,3 @@ int main()
     scanf("%d", &x);
     printf("O número digitado foi: %d\n", x);
 }
-
