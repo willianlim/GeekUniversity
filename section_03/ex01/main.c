@@ -6,6 +6,5 @@ int main()
 
     printf("Digite um número inteiro: ");
     scanf("%d", &x);
-    printf("O número  digitado foi: %d\n", x);
+    printf("O número digitado foi: %d\n", x);
 }
-
