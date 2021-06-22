@@ -22,13 +22,22 @@ int main()
                 hour = hour + second;
             }
             else
+            {
                 printf("Errado\n");
+                return (0);
+            }
         }
         else
+        {
             printf("Errado\n");
+            return (0);
+        }
     }
     else
+    {
         printf("Errado\n");
+        return (0);
+    }
     
     printf("Entre com o tempo de duração da experiencia em SEGUNDOS: ");
     scanf("%d", &duration);
@@ -39,7 +48,7 @@ int main()
     minute = (duration % 3600) / 60;
     second = (duration % 3600) % 60;
 
-    printf("HORÁRIO DO FIM: %dh%dm%ds", hour, minute, second);
+    printf("HORÁRIO DO FIM: %dh%dm%ds\n", hour, minute, second);
 
     return (0);
 }
