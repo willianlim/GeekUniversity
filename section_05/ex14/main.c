@@ -8,11 +8,16 @@ int main()
     printf("Digite um número inteiro positivo: ");
     scanf("%d", &n);
 
-    for (i = n; i >= 0; i--)
+    if (n % 2 == 0)
     {
-        if (i % 2 == 0)
-            printf("%d.\n", i);
+        for (i = n; i > 0; i--)
+        {
+            if (i % 2 == 0)
+                printf("%d.\n", i);
+        }
     }
+    else
+        printf("Número inválido.\n");
 
     return (0);
 }
