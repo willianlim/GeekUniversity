@@ -2,8 +2,8 @@
 
 int main()
 {
-    float soma = 0;
     float vet[3][3];
+    float soma = 0;
     int a = 1;
 
     printf("Preecha com 9 números a matriz vet[3][3].\n");
@@ -12,7 +12,7 @@ int main()
     {
         for (int j = 0; j < 3; j++)
         {
-            printf("Digite o %d°: ", a);
+            printf("Digite o %d° elemento: ", a);
             scanf("%f", &vet[i][j]);
             a++;
         }
@@ -32,13 +32,13 @@ int main()
     {
         for (int j = 0; j < 3; j++)
         {
-            if (i > j)
+            if (i + j == 2)
                 soma = soma + vet[i][j];
         }
     }
 
     printf("\n");
-    printf("A soma dos elementos abaixo da diagonal principal: %.2f\n", soma);
+    printf("A soma dos elementos da diagonal secundaria: %.2f.\n", soma);
 
     return (0);
 }

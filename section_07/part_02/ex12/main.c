@@ -2,7 +2,6 @@
 
 int main()
 {
-    float soma = 0;
     float vet[3][3];
     int a = 1;
 
@@ -12,7 +11,7 @@ int main()
     {
         for (int j = 0; j < 3; j++)
         {
-            printf("Digite o %d°: ", a);
+            printf("Digite o %d° elemento: ", a);
             scanf("%f", &vet[i][j]);
             a++;
         }
@@ -28,17 +27,15 @@ int main()
             printf("\n");
     }
 
+    printf("\n");
+    printf("A matriz vet[3][3] transposta.\n");
+
     for (int i = 0; i < 3; i++)
     {
         for (int j = 0; j < 3; j++)
-        {
-            if (i > j)
-                soma = soma + vet[i][j];
-        }
+            printf("%.2f\t", vet[j][i]);
+            printf("\n");
     }
-
-    printf("\n");
-    printf("A soma dos elementos abaixo da diagonal principal: %.2f\n", soma);
 
     return (0);
 }
