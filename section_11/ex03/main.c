@@ -12,14 +12,13 @@ int main()
 
     if(arq == NULL)
     {
-        printf("Erro na abertura do arquivo.\n");
-        exit(1);//aborta o programa
+        printf("Erro na abertuar do aruiqvo.\n");
+        exit(1);
     }
     
     while(caracter != '0')
     {
         printf("Entre com os dados: ");
-        //fflush(stdin);
         scanf(" %c", &caracter);
         fprintf(arq, "%c\n", caracter);
     }
@@ -31,22 +30,22 @@ int main()
     if(arq == NULL)
     {
         printf("Erro na abertura do arquivo.\n");
-        exit(1);//aborta o programa
+        exit(1);
     }
 
-    rewind(arq);//Reposiciona o ponteiro para o início do arquivo
-    
+    rewind(arq);
+
     inicio = getc(arq);
 
     while(inicio != EOF)
     {
-        if(inicio == '\n')
+        if(inicio == 'a' || inicio == 'e' || inicio == 'i' || inicio == 'o' || inicio == 'u' || inicio == 'A' || inicio == 'E' || inicio == 'I' ||inicio == 'O' || inicio == 'U')
             count++;
         printf("%c", inicio);
         inicio = getc(arq);
     }
 
-    printf("A quantidade de linhas é %d\n", count);
+    printf("A quantidade de vogais é %d\n", count);
 
     fclose(arq);
 
