@@ -1,0 +1,30 @@
+1 - aluno
+Matricula do aluno: 11
+Nome do aluno: Willian
+Nota a primeira prova: 0
+Nota da segunda prova: 9
+Nota da terceira prova: 8
+2 - aluno
+Matricula do aluno: 12
+Nome do aluno: Vanessa
+Nota a primeira prova: 2
+Nota da segunda prova: 9
+Nota da terceira prova: 8
+3 - aluno
+Matricula do aluno: 13
+Nome do aluno: Pedro
+Nota a primeira prova: 10
+Nota da segunda prova: 0
+Nota da terceira prova: 9
+4 - aluno
+Matricula do aluno: 0
+Nome do aluno: eandro
+Nota a primeira prova: 10
+Nota da segunda prova: 9
+Nota da terceira prova: 8
+5 - aluno
+Matricula do aluno: 15
+Nome do aluno: Isac
+Nota a primeira prova: 10
+Nota da segunda prova: 10
+Nota da terceira prova: 10

@@ -1,0 +1,15 @@
+Nome: Willian Rosendo de Lima
+Número de matrícula: 706489146
+Nome d curso: Ciêcia da Computação
+Nome: Maria das Graças Rosendo de Lima
+Número de matrícula: 2127334031
+Nome d curso: Direito
+Nome: Vanessa Rosendo de Lima
+Número de matrícula: 922345601
+Nome d curso: Desing
+Nome: Pedro Perreira de Lima
+Número de matrícula: -575067379
+Nome d curso: Arquiterura
+Nome: Isac Newton
+Número de matrícula: 1351155637
+Nome d curso: Física
