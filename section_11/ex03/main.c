@@ -22,7 +22,7 @@ int main()
         scanf(" %c", &caracter);
         fprintf(arq, "%c\n", caracter);
     }
-
+ 
     fclose(arq);
 
     arq = fopen("arq.txt", "r");
@@ -41,6 +41,8 @@ int main()
     {
         if(inicio == 'a' || inicio == 'e' || inicio == 'i' || inicio == 'o' || inicio == 'u' || inicio == 'A' || inicio == 'E' || inicio == 'I' ||inicio == 'O' || inicio == 'U')
             count++;
+        else
+            
         printf("%c", inicio);
         inicio = getc(arq);
     }
